@@ -2,4 +2,4 @@
 
 Website: https://kerainka.github.io./
 
-![demo](github.png)
+![demo](demo.gif)
