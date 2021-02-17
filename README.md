@@ -1,4 +1,4 @@
-# Create website using Github Pages  
+# Create Memory Game website using Github Pages  
 
 Website: [kerainka.github.io/memory-game/](https://kerainka.github.io/memory-game/)
 
