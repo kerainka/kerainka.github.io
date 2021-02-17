@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     //card options
     const cardArray = [
         {
-            name: "birthday cake",
+            name: "birthdaycake",
             img: 'images/birthdaycake.png'
         },
         {
-            name: "birthday cake",
+            name: "birthdaycake",
             img: 'images/birthdaycake.png'
         },
         {
@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
             img: 'images/pizza.png'
         },
     ]
-})
 
 cardArray.sort(() => 0.5 - Math.random())
 
@@ -91,7 +90,6 @@ function checkForMatch() {
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.lenght === cardArray.lenght/2) {
         resultDisplay.textContent = 'Congratulations! You found them all!'
-    
     }
 }
 
@@ -106,4 +104,6 @@ function flipCard() {
         setTimeout(checkForMatch, 500)
     }
 }
+
 createBoard()
+})
