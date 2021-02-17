@@ -65,6 +65,8 @@ function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         var card = document.createElement('img')
         card.setAttribute('src', 'images/blank.png')
+        card.setAttribute('width', 100)
+        card.setAttribute('height', 100)
         card.setAttribute('data-id', i)
         card.addEventListener('click', flipCard)
         grid.appendChild(card)
