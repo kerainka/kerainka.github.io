@@ -1,5 +1,5 @@
 # Create website using Github Pages  
 
-Website: https://kerainka.github.io
+Website: [kerainka.github.io/memory-game/](https://kerainka.github.io/memory-game/)
 
 ![demo](demo.gif)
